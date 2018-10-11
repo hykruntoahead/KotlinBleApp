@@ -19,7 +19,6 @@ fun main(args: Array<String>) {
     for (i in range_exclusive){
         println("$i,")
     }
-
 }
 
 

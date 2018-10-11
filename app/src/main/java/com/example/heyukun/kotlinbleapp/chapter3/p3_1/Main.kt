@@ -1,4 +1,4 @@
-package com.example.heyukun.kotlinbleapp.chapter3
+package com.example.heyukun.kotlinbleapp.chapter3.p3_1
 
 /**
  * @author heyukun
