@@ -1,10 +1,11 @@
 package com.example.heyukun.kotlinbleapp.chapter2
 
-import java.util.logging.SocketHandler
 
 /**
  * @author heyukun
  * 基本数据类型
+ *
+ * 不可隐式转换
  */
 
 //bool
@@ -48,6 +49,9 @@ val minShort:Short = Short.MIN_VALUE
 val abyte:Byte =120 //128error
 val maxByte : Byte = Byte.MAX_VALUE
 val minByte : Byte = Byte.MIN_VALUE
+
+
+
 
 
 fun main(args :Array<String>){
