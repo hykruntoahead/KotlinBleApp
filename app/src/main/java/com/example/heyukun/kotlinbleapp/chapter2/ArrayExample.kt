@@ -2,6 +2,9 @@ package com.example.heyukun.kotlinbleapp.chapter2
 
 import com.example.heyukun.kotlinbleapp.chapter2.typecast.Child
 
+/**
+ * 数组array
+ */
 val arrayOfInt : IntArray = intArrayOf(1,3,5,7)
 val arrayOfChar : CharArray = charArrayOf('H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd')
 val arrayOfString : Array<String> = arrayOf("我","是","程序猿")

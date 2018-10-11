@@ -1,0 +1,31 @@
+概要
+
+-类似匿名函数
+
+-写法:{[参数列表] -> [函数体，最后一行是返回值]}
+ eg: val sum1 = { arg1: Int, arg2: Int -> arg1 + arg2}
+
+类型举例:
+-() -> Unit
+  无参数 ，返回值Unit
+
+-(Int) -> Int
+  整型参数 ，返回值一个整型
+
+-(String,(String)->String) -> Boolean
+  字符串参数 ,Lambda表达式，返回Boolean
+
+调用
+
+-用()进行调用
+-等价于 invoke()
+     eg:
+     ~ val sum1 = { arg1: Int, arg2: Int -> arg1 + arg2}
+     ~ sum1(1,3)
+     ~ sum1.invoke(1,3)
+
+简化
+-函数参数调用时最后一个Lambda可以移出去
+-函数参数只有一个Lambda，调用时小括号可以省略
+-lambda只有一个参数可默认为it
+-入参、返回值与形参一致的函数可以用函数引用的方式作为实参传入
