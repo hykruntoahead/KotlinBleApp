@@ -1,0 +1,5 @@
+中缀表达式
+
+-只有一个参数，且用infix修饰的函数
+ eg: class Book { infix fun on(place :String){...}}
+     Book() on "My Desk"
